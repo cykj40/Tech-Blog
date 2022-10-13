@@ -75,7 +75,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-// create Post
+// create Post api/posts
 router.post('/', withAuth, (req, res) => {
     Post.create({
         title: req.body.title,
