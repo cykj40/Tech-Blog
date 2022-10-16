@@ -12,6 +12,17 @@
    ```
    
   ## Table of Contents
+  
+  * [Description](#description)
+  * [About](#about)
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#acceptance-criteria)
+  * [Screen Shots](#screen-shots)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Test](#test)
+  * [Contributers](#contributers)
+  * [Questions](#questions)
  
 
   ## About
@@ -66,7 +77,7 @@
   WHEN I am idle on the site for more than a set time
   THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
   ```
-  ## Screenshots
+  ## Screen Shots
   ![Screenshot (66)](https://user-images.githubusercontent.com/102045473/196043824-3c7da602-ff9f-4798-9745-b699198e8431.png)
 ![Screenshot (65)](https://user-images.githubusercontent.com/102045473/196043829-37e10fac-3eb1-46f8-b203-e05c371c85ff.png)
 ![Screenshot (64)](https://user-images.githubusercontent.com/102045473/196043834-3e55c708-21e1-4320-8ca7-3459ad8e317d.png)
