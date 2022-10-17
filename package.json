@@ -4,10 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/seed.js"
+  "start": "node server.js"
+    
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cykj40/tech-blog.git"
