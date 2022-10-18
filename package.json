@@ -4,7 +4,7 @@
   "description": "tech-blog",
   "main": "server.js",
   "scripts": {
-    "build:production": "node --version",
+    "build:production": "webpack --config webpack.config.js",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/seed.js"
