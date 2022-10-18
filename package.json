@@ -4,7 +4,7 @@
   "description": "tech-blog",
   "main": "server.js",
   "scripts": {
-    "build:production": "webpack --config webpack.config.js",
+    "build": "webpack",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/seed.js"
@@ -28,7 +28,8 @@
     "express-session": "^1.17.2",
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.0",
-    "sequelize": "^6.6.5"
+    "sequelize": "^6.6.5",
+    "webpack": "^5.64.4"
   },
   "devDependencies": {
     
