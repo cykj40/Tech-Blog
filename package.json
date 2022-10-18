@@ -6,8 +6,7 @@
   "scripts": {
     
     "start": "node server.js",
-    "build": "webpack",
-    "watch": "nodemon server.js",
+     "watch": "nodemon server.js",
     "seed": "node seeds/seed.js"
   },
   "repository": {
@@ -29,8 +28,8 @@
     "express-session": "^1.17.2",
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.0",
-    "sequelize": "^6.6.5",
-    "webpack": "^5.64.4"
+    "sequelize": "^6.6.5"
+    
   },
   "devDependencies": {
     
