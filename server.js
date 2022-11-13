@@ -11,10 +11,7 @@ const app = express();
 var PORT = process.env.PORT || 3001;
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
-const userRoutes = require('./controllers/api/user-routes');
-const index= require('./controllers/api/index.js');
-const index2= require('./controllers/index.js');
-const server = require('./server.js');
+
 
 
 
@@ -40,10 +37,7 @@ app.use('*/javascript',express.static(path.join(__dirname, 'public/javascript'))
 app.use('*/stylesheets',express.static(path.join(__dirname, 'public/stylesheets')));
 app.use('*/images',express.static(path.join(__dirname, 'public/images')));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(userRoutes);
-app.use(index);
-app.use(index2);
-app.use(server);
+
 
 
 
