@@ -38,17 +38,17 @@ app.use('*/stylesheets',express.static(path.join(__dirname, 'public/stylesheets'
 app.use('*/images',express.static(path.join(__dirname, 'public/images')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-
-
-
-
-
 app.use(routes);
-
-
 
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
 });
+
+
+
+
+
+
+
+
 
