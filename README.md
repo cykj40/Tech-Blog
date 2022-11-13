@@ -93,6 +93,8 @@
   npm seed 
   npm run start
   ```
+  ## Deployed Apllication
+  <a href="https://tech-blog-888.herokuapp.com/">Tech Blog Live</a>
 
   ## License
 ![badge](https://img.shields.io/badge/license-MIT--brightgreen)
