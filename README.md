@@ -19,6 +19,7 @@
   * [Acceptance Criteria](#acceptance-criteria)
   * [Screen Shots](#screen-shots)
   * [Installation](#installation)
+  * [Deployed App](#deployed-app)
   * [License](#license)
   * [Test](#test)
   * [Contributers](#contributers)
