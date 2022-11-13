@@ -26,17 +26,14 @@ const sess = {
 app.use(session(sess));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('*/javascript',express.static(path.join(__dirname, 'public/javascript')));
-app.use('*/stylesheets',express.static(path.join(__dirname, 'public/stylesheets')));
-app.use('*/images',express.static(path.join(__dirname, 'public/images')));
 app.use(express.static(path.join(__dirname, 'public')));
-
-
-
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
-
 app.use(routes);
+
+
+
+
 
 
 
