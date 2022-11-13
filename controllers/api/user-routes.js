@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Post, Comment } = require('../../models');
+const { User, Post, Comment } = require('../../Models');
 
 // GET api/users
 router.get('/', (_req, res) => {
