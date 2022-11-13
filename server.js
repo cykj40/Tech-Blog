@@ -34,15 +34,7 @@ app.use('*/stylesheets',express.static(path.join(__dirname, 'public/stylesheets'
 app.use('*/images',express.static(path.join(__dirname, 'public/images')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// deploy to heroku
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
-}
 
-
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'client/build/index.html'));
-});
 
 
 
