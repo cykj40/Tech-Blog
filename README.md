@@ -19,7 +19,7 @@
   * [Acceptance Criteria](#acceptance-criteria)
   * [Screen Shots](#screen-shots)
   * [Installation](#installation)
-  * [Deployed App](#deployed-app)
+  * [Deployed Heroku App](#deployed-heroku-app)
   * [License](#license)
   * [Test](#test)
   * [Contributers](#contributers)
@@ -94,7 +94,7 @@
   npm seed 
   npm run start
   ```
-  ## Deployed App
+  ## Deployed Heroku App
   <a href="https://tech-blog-888.herokuapp.com/">Tech Blog Live</a>
 
   ## License
