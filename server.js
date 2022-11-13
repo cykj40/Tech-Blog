@@ -36,8 +36,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use('*/javascript',express.static(path.join(__dirname, 'public/javascript')));
 app.use('*/stylesheets',express.static(path.join(__dirname, 'public/stylesheets')));
 app.use('*/images',express.static(path.join(__dirname, 'public/images')));
-app.use('*/favicon.ico',express.static(path.join(__dirname, 'public/favicon.ico')));
-app.use('*/models',express.static(path.join(__dirname, 'models')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
