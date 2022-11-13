@@ -93,7 +93,7 @@
   npm seed 
   npm run start
   ```
-  ## Deployed Apllication
+  ## Deployed App
   <a href="https://tech-blog-888.herokuapp.com/">Tech Blog Live</a>
 
   ## License
